@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\asminf205\Parse-1.11\Parse-1.11.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="54a0d027ea5d5b0dae92833991bb68f9b3da6ca6">
+        <dex dex="D:\asminf205\app\build\intermediates\pre-dexed\debug\Parse-1.11.0-9db7f4b8a65bd180b2f9fc11f74a31ddd4bdc32c.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="fpoly.androi.com.NewListActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+<item
+        android:id="@+id/about_option"
+        android:icon="@drawable/action_about"
+        android:showAsAction="ifRoom"
+        android:title="About Me"/>
+</menu>
+<!-- From: file:/D:/asminf205/app/src/main/res/menu/new_list.xml -->

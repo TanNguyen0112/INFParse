@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="fpoly.androi.com.NewsActivity" >
+
+        <item
+        android:id="@+id/share_option"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:showAsAction="ifRoom"
+        android:title="Share"/>
+
+</menu>
+<!-- From: file:/D:/asminf205/app/src/main/res/menu/news.xml -->

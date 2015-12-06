@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fpoly.androi.com"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+   
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="fpoly.androi.com.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="fpoly.androi.com.AdminActivity"
+            android:label="@string/title_activity_admin" >
+        </activity>
+        <activity
+            android:name="fpoly.androi.com.UserActivity"
+            android:label="@string/title_activity_user" >
+        </activity>
+        <activity
+            android:name="fpoly.androi.com.StudentUserActivity"
+            android:label="@string/title_activity_student_user" >
+        </activity>
+        <activity
+            android:name="fpoly.androi.com.StudentAdminActivity"
+            android:label="@string/title_activity_student_admin" >
+        </activity>
+        <activity
+            android:name="fpoly.androi.com.MapsActivity"
+            android:label="@string/title_activity_maps" >
+        </activity>
+        <activity
+            android:name="fpoly.androi.com.NewsActivity"
+            android:label="@string/title_activity_news" >
+        </activity>
+        <activity
+            android:name="fpoly.androi.com.SocialActivity"
+            android:label="@string/title_activity_social" >
+        </activity>
+        <activity
+            android:name="fpoly.androi.com.ManagementActivity"
+            android:label="@string/title_activity_management" >
+        </activity>
+        <activity
+            android:name="fpoly.androi.com.ListClassActivity"
+            android:label="@string/title_activity_list_class" >
+        </activity>
+        <activity
+            android:name="fpoly.androi.com.ListStudentActivity"
+            android:label="@string/title_activity_list_student" >
+        </activity>
+        <activity
+            android:name="fpoly.androi.com.DetailActivity"
+            android:label="@string/title_activity_detail" >
+        </activity>
+        <activity
+            android:name="fpoly.androi.com.Detail_FragmentActivity"
+            android:label="@string/title_activity_detail__fragment" >
+        </activity>
+        <activity
+            android:name="fpoly.androi.com.NewListActivity"
+            android:label="@string/title_activity_new_list" >
+        </activity>
+    </application>
+
+</manifest>

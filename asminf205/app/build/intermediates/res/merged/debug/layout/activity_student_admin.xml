@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="fpoly.androi.com.StudentAdminActivity$PlaceholderFragment"
+    tools:ignore="HardcodedText" >
+
+    <Button
+        android:id="@+id/btnaddclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Lớp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnxemdslop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem Danh Sách Lớp" />
+
+    <Button
+        android:id="@+id/btnmana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản Lý Sinh Viên"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
+<!-- From: file:/D:/asminf205/app/src/main/res/layout/activity_student_admin.xml -->
